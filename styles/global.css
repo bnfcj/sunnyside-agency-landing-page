@@ -1,0 +1,62 @@
+header {
+  color: var(--White);
+  background-image: url("../images/desktop/image-header.jpg");
+  min-height: 100dvh;
+  background-size: cover;
+  background-position: center bottom;
+}
+ul {
+  list-style: none;
+}
+
+p,
+blockquote {
+  max-width: 60ch;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  max-width: 30ch;
+  line-height: 1;
+  font-family: var(--ff-special);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+}
+
+h2 {
+  font-weight: var(--fw-900);
+  font-size: var(--step-5);
+}
+h3 {
+  font-weight: var(--fw-700);
+  font-size: var(--step-4);
+}
+h4 {
+  font-weight: var(--fw-700);
+  font-size: var(--step-3);
+}
+h5 {
+  font-weight: var(--fw-700);
+  font-size: var(--step-2);
+}
+h6 {
+  font-weight: var(--fw-700);
+  font-size: var(--step-1);
+}
+p {
+  font-weight: var(--fw-600);
+  font-size: var(--step-0);
+}
+a {
+  text-decoration: none;
+
+  font-size: var(--step-1);
+}
+.xs-text {
+  font-weight: var(--fw-600);
+  font-size: var(--step--1);
+}

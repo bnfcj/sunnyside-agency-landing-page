@@ -6,6 +6,28 @@
   --fw-700: 700;
   --fw-900: 900;
 
+  /* ### Primary */
+
+  --Softred: hsl(7, 99%, 70%);
+  --Yellow: hsl(51, 100%, 49%);
+
+  /* (graphic design text) */
+  --Darkdesaturatedcyan: hsl(167, 40%, 24%);
+
+  /* (photography text) */
+  --Darkblue: hsl(198, 62%, 26%);
+
+  /* (footer) */
+  --Darkmoderatecyan: hsl(168, 34%, 41%);
+
+  /* ### Neutral */
+
+  --Verydarkdesaturatedblue: hsl(212, 27%, 19%);
+  --Verydarkgrayishblue: hsl(213, 9%, 39%);
+  --Darkgrayishblue: hsl(232, 10%, 55%);
+  --Grayishblue: hsl(210, 4%, 67%);
+  --White: hsl(0, 0%, 100%);
+
   /* @link https://utopia.fyi/type/calculator?c=375,16,1.2,1440,16,1.414,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
 
   --step--1: clamp(0.7072rem, 0.8777rem + -0.1895vi, 0.8333rem);
