@@ -1,0 +1,68 @@
+:root {
+  --ff-normal: "Barlow", sans-serif;
+  --ff-special: "Fraunces", serif;
+
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+
+  /* @link https://utopia.fyi/type/calculator?c=375,16,1.2,1440,16,1.414,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --step--1: clamp(0.7072rem, 0.8777rem + -0.1895vi, 0.8333rem);
+  --step-0: clamp(1rem, 1rem + 0vi, 1rem);
+  --step-1: clamp(1.2rem, 1.1246rem + 0.3215vi, 1.414rem);
+  --step-2: clamp(1.44rem, 1.243rem + 0.8404vi, 1.9994rem);
+  --step-3: clamp(1.728rem, 1.341rem + 1.6513vi, 2.8271rem);
+  --step-4: clamp(2.0736rem, 1.3961rem + 2.8905vi, 3.9976rem);
+  --step-5: clamp(2.4883rem, 1.3741rem + 4.7538vi, 5.6526rem);
+
+  /* @link https://utopia.fyi/space/calculator?c=375,16,1.2,1440,16,1.414,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --space-3xs: clamp(0.25rem, 0.25rem + 0vi, 0.25rem);
+  --space-2xs: clamp(0.5rem, 0.5rem + 0vi, 0.5rem);
+  --space-xs: clamp(0.75rem, 0.75rem + 0vi, 0.75rem);
+  --space-s: clamp(1rem, 1rem + 0vi, 1rem);
+  --space-m: clamp(1.5rem, 1.5rem + 0vi, 1.5rem);
+  --space-l: clamp(2rem, 2rem + 0vi, 2rem);
+  --space-xl: clamp(3rem, 3rem + 0vi, 3rem);
+  --space-2xl: clamp(4rem, 4rem + 0vi, 4rem);
+  --space-3xl: clamp(6rem, 6rem + 0vi, 6rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.25rem, 0.162rem + 0.3756vi, 0.5rem);
+  --space-2xs-xs: clamp(0.5rem, 0.412rem + 0.3756vi, 0.75rem);
+  --space-xs-s: clamp(0.75rem, 0.662rem + 0.3756vi, 1rem);
+  --space-s-m: clamp(1rem, 0.8239rem + 0.7512vi, 1.5rem);
+  --space-m-l: clamp(1.5rem, 1.3239rem + 0.7512vi, 2rem);
+  --space-l-xl: clamp(2rem, 1.6479rem + 1.5023vi, 3rem);
+  --space-xl-2xl: clamp(3rem, 2.6479rem + 1.5023vi, 4rem);
+  --space-2xl-3xl: clamp(4rem, 3.2958rem + 3.0047vi, 6rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1rem, 0.6479rem + 1.5023vi, 2rem);
+  --grid-max-width: 62rem;
+  --grid-gutter: var(--space-s-l, clamp(1rem, 0.3922rem + 2.5932vw, 2rem));
+  --grid-columns: 12;
+}
+
+.u-container {
+  max-width: var(--grid-max-width);
+  padding-inline: var(--grid-gutter);
+  margin-inline: auto;
+}
+
+.u-grid {
+  display: grid;
+  gap: var(--grid-gutter);
+}
+
+.fraunces {
+  font-family: var(--ff-special);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+}
+.barlow {
+  font-family: var(--ff-normal);
+  font-weight: var(--fw-600);
+}
