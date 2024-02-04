@@ -62,6 +62,9 @@
 
   /* Custom pairs */
   --space-s-l: clamp(1rem, 0.6479rem + 1.5023vi, 2rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1rem, 0.6479rem + 1.5023vi, 2rem);
   --grid-max-width: 62rem;
   --grid-gutter: var(--space-s-l, clamp(1rem, 0.3922rem + 2.5932vw, 2rem));
   --grid-columns: 12;

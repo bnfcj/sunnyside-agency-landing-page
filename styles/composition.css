@@ -1,17 +1,22 @@
 .primary-feature {
-  --flow-space: var(--space-m-l);
+  --flow-space: var(--space-l-xl);
 }
 .flow > * + * {
   margin-top: var(--flow-space, 1em);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(clamp(16rem, 50vw, 26rem), 1fr)
-  );
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
 }
-
+.flex-center > * {
+  flex-basis: 50%;
+  flex-shrink: 1;
+}
+@media screen and (max-width: 802.98px) {
+  .flex-center > * {
+    flex-basis: 100%;
+  }
+}
 .wrapper {
 }

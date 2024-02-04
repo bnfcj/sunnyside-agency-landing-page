@@ -6,9 +6,15 @@
   display: flex;
 }
 
-article {
-  max-width: 100%;
-}
 .full-width {
   width: 100%;
+}
+.feature__content {
+  padding: var(--space-m);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
 }

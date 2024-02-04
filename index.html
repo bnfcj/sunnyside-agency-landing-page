@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="styles/composition.css" />
     <!-- Utlitiy Css -->
     <link rel="stylesheet" href="styles/utlities.css" />
+    <!-- Exceptions -->
+    <link rel="stylesheet" href="styles/exceptions.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body class="barlow">
@@ -56,8 +58,10 @@
     </header>
     <main>
       <div class="wrapper">
-        <article class="primary-feature | grid" id="">
-          <div class="flow flex-column">
+        <article class="primary-feature | flex-center" id="">
+          <div
+            class="feature__content | text-center flow flex-column full-width"
+          >
             <h3>Transform your brand</h3>
             <p>
               We are a full-service creative agency specializing in helping
@@ -66,6 +70,7 @@
             </p>
             <a href="#" class="link-button">Learn more</a>
           </div>
+
           <div>
             <img
               class="full-width"
@@ -74,8 +79,12 @@
             />
           </div>
         </article>
-        <article class="primary-feature" id="">
-          <div>
+        <article
+          data-type="even-item"
+          class="primary-feature | flex-center"
+          id=""
+        >
+          <div class="feature__content | text-center flow flex-column">
             <h3>Stand out to the right audience</h3>
             <p>
               Using a collaborative formula of designers, researchers,
@@ -84,7 +93,14 @@
             </p>
             <a href="#" class="link-button">Learn more</a>
           </div>
-          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+
+          <div>
+            <img
+              class="full-width"
+              src="./images/desktop/image-stand-out.jpg"
+              alt=""
+            />
+          </div>
         </article>
         <article class="secondary-feature" id="">
           <div>
