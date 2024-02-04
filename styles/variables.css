@@ -27,6 +27,17 @@
   --Darkgrayishblue: hsl(232, 10%, 55%);
   --Grayishblue: hsl(210, 4%, 67%);
   --White: hsl(0, 0%, 100%);
+
+  /* Font sizes */
+  /* @link https://utopia.fyi/type/calculator?c=320,20,1.2,1240,24,1.333,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --step--1: clamp(1.0417rem, 1.0126rem + 0.1454vi, 1.1253rem);
+  --step-0: clamp(1.25rem, 1.163rem + 0.4348vi, 1.5rem);
+  --step-1: clamp(1.5rem, 1.3263rem + 0.8687vi, 1.9995rem);
+  --step-2: clamp(1.8rem, 1.499rem + 1.5049vi, 2.6653rem);
+  --step-3: clamp(2.16rem, 1.6755rem + 2.4224vi, 3.5529rem);
+  --step-4: clamp(2.592rem, 1.8463rem + 3.7287vi, 4.736rem);
+  --step-5: clamp(3.1104rem, 1.9964rem + 5.5699vi, 6.3131rem);
 }
 
 .fraunces {
@@ -34,6 +45,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "SOFT" 100, "WONK" 0;
+  font-weight: 700;
 }
 .barlow {
   font-family: var(--ff-normal);

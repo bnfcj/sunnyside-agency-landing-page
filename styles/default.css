@@ -1,22 +1,33 @@
-header {
-  color: var(--White);
-  background-image: url("../images/desktop/image-header.jpg");
-  min-height: 100dvh;
-  background-size: cover;
-  background-position: center bottom;
+html {
+  font-size: 125%;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 150%;
+  }
+}
+/* Line Heights */
+body {
+  line-height: 1.4;
+}
+h2,
+h3,
+h4 {
+  line-height: 1;
 }
 ul {
   list-style: none;
 }
-
+strong {
+  font-weight: 700;
+}
+/* Character Limits and Fonts */
 p,
 li,
 blockquote {
   max-width: 50ch;
 }
-body {
-  word-wrap: break-word;
-}
+
 h2,
 h3,
 h4,
@@ -26,17 +37,11 @@ h6 {
   font-family: var(--ff-special);
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings: "SOFT" 100, "WONK" 0;
+  font-weight: 700;
+  font-variation-settings: "SOFT" 0, "WONK" 0;
 }
 
-body {
-  line-height: 1.4;
-}
-h2,
-h3,
-h4 {
-  line-height: 1;
-}
+/* Font Sizes and Weights */
 h2 {
   font-weight: var(--fw-900);
   font-size: var(--step-5);
@@ -57,13 +62,14 @@ h6 {
   font-weight: var(--fw-700);
   font-size: var(--step-1);
 }
-p {
+p,
+blockquote {
   font-weight: var(--fw-600);
   font-size: var(--step-0);
 }
+
 a {
   text-decoration: none;
-
   font-size: var(--step-1);
 }
 .xs-text {
