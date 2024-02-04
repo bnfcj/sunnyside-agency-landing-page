@@ -27,27 +27,31 @@
     <link rel="stylesheet" href="styles/variables.css" />
     <!-- Default Css -->
     <link rel="stylesheet" href="styles/default.css" />
+    <!-- Utility Classes -->
+    <link rel="stylesheet" href="styles/utility.css" />
+    <!-- Header Css -->
+    <link rel="stylesheet" href="styles/header.css" />
 
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body class="barlow">
     <header>
-      <div>
-        <div>
-          <img src="./images/logo.svg" alt="Sunnyside Logo" />
-
-          <nav aria-label="primary">
-            <ul role="list">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Projects</a></li>
-              <li class="fraunces" data-type="Button">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <h2>We are creatives</h2>
+      <div class="header-top">
+        <img src="./images/logo.svg" alt="Sunnyside Logo" />
+        <img src="./images/icon-hamburger.svg" aria-hidden="true" alt="" />
+        <nav class="visually-hidden" aria-label="primary">
+          <ul role="list">
+            <li><a class="white-text" href="#">About</a></li>
+            <li><a class="white-text" href="#">Services</a></li>
+            <li><a class="white-text" href="#">Projects</a></li>
+            <li data-type="Button">
+              <a class="darkest-text fraunces" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-center absolute-center">
+        <h2 class="white-text text-center">We are creatives</h2>
         <a href="#main" aria-label="Link to main"
           ><img src="./images/icon-arrow-down.svg" alt=""
         /></a>

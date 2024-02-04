@@ -1,0 +1,44 @@
+.fraunces {
+  font-family: var(--ff-special);
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+  font-weight: 700;
+}
+.barlow {
+  font-family: var(--ff-normal);
+  font-weight: var(--fw-600);
+}
+.xs-text {
+  font-weight: var(--fw-600);
+  font-size: var(--step--1);
+}
+.white-text {
+  color: var(--White);
+}
+.darkest-text,
+a.darkest-text {
+  color: var(--Verydarkdesaturatedblue);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.absolute-center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--space-s);
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}

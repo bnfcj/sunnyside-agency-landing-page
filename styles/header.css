@@ -1,0 +1,22 @@
+header {
+  background-image: url("../images/mobile/image-header.jpg");
+  background-position: center bottom;
+  min-height: 100dvh;
+  background-size: cover;
+}
+
+@media screen and (min-width: 376px) {
+  header {
+    background-image: url("../images/desktop/image-header.jpg");
+  }
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-l) var(--space-m);
+}
+.header-center {
+  margin-bottom: var(--space-xl-3xl);
+}
