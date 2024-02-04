@@ -27,6 +27,10 @@
     <link rel="stylesheet" href="styles/variables.css" />
     <!-- Global Css -->
     <link rel="stylesheet" href="styles/global.css" />
+    <!-- Composition Css -->
+    <link rel="stylesheet" href="styles/composition.css" />
+    <!-- Utlitiy Css -->
+    <link rel="stylesheet" href="styles/utlities.css" />
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body class="barlow">
@@ -51,105 +55,113 @@
       </div>
     </header>
     <main>
-      <article class="primary-feature" id="">
-        <div>
-          <h3>Transform your brand</h3>
-          <p>
-            We are a full-service creative agency specializing in helping brands
-            grow fast. Engage your clients through compelling visuals that do
-            most of the marketing for you.
-          </p>
-          <a href="#" class="link-button">Learn more</a>
-        </div>
-        <img src="./images/desktop/image-transform.jpg" alt="" />
-      </article>
-      <article class="primary-feature" id="">
-        <div>
-          <h3>Stand out to the right audience</h3>
-          <p>
-            Using a collaborative formula of designers, researchers,
-            photographers, videographers, and copywriters, we’ll build and
-            extend your brand in digital places.
-          </p>
-          <a href="#" class="link-button">Learn more</a>
-        </div>
-        <img src="./images/desktop/image-stand-out.jpg" alt="" />
-      </article>
-      <article class="secondary-feature" id="">
-        <div>
-          <img src="./images/desktop/image-graphic-design.jpg" alt="" />
-          <h4>Graphic design</h4>
-          <p>
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-        <div>
-          <img src="./images/desktop/image-photography.jpg" alt="" />
-          <h4>Photography</h4>
-          <p>
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      </article>
-      <article class="testimonials">
-        <h5>Client testimonials</h5>
-        <figure>
-          <img src="./images/image-emily.jpg" alt="User Avatar" />
-          <figcaption>
-            <blockquote>
-              We put our trust in Sunnyside and they delivered, making sure our
-              needs were met and deadlines were always hit.
-            </blockquote>
-            <p><strong>Emily R.</strong></p>
-            <p class="xs-text">Marketing Director</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="./images/image-thomas.jpg" alt="User Avatar" />
-          <figcaption>
-            <blockquote>
-              Sunnyside’s enthusiasm coupled with their keen interest in our
-              brand’s success made it a satisfying and enjoyable experience.
-            </blockquote>
-            <p><strong>Thomas S.</strong></p>
-            <p class="xs-text">Chief Operating Officer</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="./images/image-jennie.jpg" alt="User Avatar" />
-          <figcaption>
-            <blockquote>
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended!
-            </blockquote>
-            <p><strong>Jennie F.</strong></p>
-            <p class="xs-text">Business Owner</p>
-          </figcaption>
-        </figure>
-      </article>
-      <article class="image-row">
-        <img
-          src="./images/desktop/image-gallery-milkbottles.jpg"
-          alt="Milk bottles"
-        />
-        <img
-          src="./images/desktop/image-gallery-orange.jpg"
-          alt="Orange sliced"
-        />
-        <img
-          src="./images/desktop/image-gallery-cone.jpg"
-          alt="Ice cream cone"
-        />
-        <img
-          src="./images/desktop/image-gallery-sugarcubes.jpg"
-          alt="Sugar cubes"
-        />
-      </article>
+      <div class="wrapper">
+        <article class="primary-feature | grid" id="">
+          <div class="flow flex-column">
+            <h3>Transform your brand</h3>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="link-button">Learn more</a>
+          </div>
+          <div>
+            <img
+              class="full-width"
+              src="./images/desktop/image-transform.jpg"
+              alt=""
+            />
+          </div>
+        </article>
+        <article class="primary-feature" id="">
+          <div>
+            <h3>Stand out to the right audience</h3>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="link-button">Learn more</a>
+          </div>
+          <img src="./images/desktop/image-stand-out.jpg" alt="" />
+        </article>
+        <article class="secondary-feature" id="">
+          <div>
+            <img src="./images/desktop/image-graphic-design.jpg" alt="" />
+            <h4>Graphic design</h4>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+          <div>
+            <img src="./images/desktop/image-photography.jpg" alt="" />
+            <h4>Photography</h4>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </article>
+        <article class="testimonials">
+          <h5>Client testimonials</h5>
+          <figure>
+            <img src="./images/image-emily.jpg" alt="User Avatar" />
+            <figcaption>
+              <blockquote>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </blockquote>
+              <p><strong>Emily R.</strong></p>
+              <p class="xs-text">Marketing Director</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/image-thomas.jpg" alt="User Avatar" />
+            <figcaption>
+              <blockquote>
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </blockquote>
+              <p><strong>Thomas S.</strong></p>
+              <p class="xs-text">Chief Operating Officer</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="./images/image-jennie.jpg" alt="User Avatar" />
+            <figcaption>
+              <blockquote>
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </blockquote>
+              <p><strong>Jennie F.</strong></p>
+              <p class="xs-text">Business Owner</p>
+            </figcaption>
+          </figure>
+        </article>
+        <article class="image-row">
+          <img
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt="Milk bottles"
+          />
+          <img
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt="Orange sliced"
+          />
+          <img
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt="Ice cream cone"
+          />
+          <img
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt="Sugar cubes"
+          />
+        </article>
+      </div>
     </main>
-    <footer>
+    <footer class="bg-green">
       <img src="./images/logo.svg" alt="Sunnyside Logo" />
       <nav aria-label="bottom">
         <ul role="list">

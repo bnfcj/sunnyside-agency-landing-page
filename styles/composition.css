@@ -1,0 +1,17 @@
+.primary-feature {
+  --flow-space: var(--space-m-l);
+}
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(clamp(16rem, 50vw, 26rem), 1fr)
+  );
+}
+
+.wrapper {
+}

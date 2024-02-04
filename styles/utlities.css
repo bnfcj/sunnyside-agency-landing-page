@@ -1,0 +1,14 @@
+.bg-green {
+  background-color: var(--Darkmoderatecyan);
+}
+.flex-column {
+  flex-direction: column;
+  display: flex;
+}
+
+article {
+  max-width: 100%;
+}
+.full-width {
+  width: 100%;
+}
