@@ -36,7 +36,7 @@
 .primary-feature div:nth-child(2) {
   padding: var(--space-s-2xl);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   justify-content: center;
   gap: 1em;
@@ -46,7 +46,7 @@
   .primary-feature[data-type="even-item"] div:first-child {
     order: 1;
   }
-  .primary-feature div:nth-child(2) {
+  /* .primary-feature div:nth-child(2) {
     align-items: flex-start;
-  }
+  } */
 }
