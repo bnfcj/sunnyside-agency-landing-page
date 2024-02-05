@@ -9,7 +9,7 @@
 .secondary-container {
   position: relative;
 }
-.secondary-container > *:nth-child(n + 2) {
+.secondary-container > *:nth-child(2) {
   position: absolute;
   bottom: 0;
 }

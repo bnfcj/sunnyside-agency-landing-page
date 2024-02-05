@@ -5,7 +5,34 @@
 .primary-feature img {
   width: 100%;
 }
-
+.primary-feature p {
+  color: var(--Darkgrayishblue);
+}
+.primary-underline {
+  position: relative;
+  color: var(--Verydarkdesaturatedblue);
+}
+.primary-underline::before {
+  position: absolute;
+  bottom: -2px;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 8px;
+  border-radius: 4px;
+}
+.primary-yellow::before {
+  background-color: var(--Yellow-light);
+}
+.primary-yellow:hover::before {
+  background-color: var(--Yellow);
+}
+.primary-red::before {
+  background-color: var(--Softred-light);
+}
+.primary-red:hover::before {
+  background-color: var(--Softred);
+}
 .primary-feature div:nth-child(2) {
   padding: var(--space-s);
   display: flex;

@@ -9,7 +9,9 @@
   /* ### Primary */
 
   --Softred: hsl(7, 99%, 70%);
+  --Softred-light: hsl(7, 100%, 84%);
   --Yellow: hsl(51, 100%, 49%);
+  --Yellow-light: hsl(51, 88%, 77%);
 
   /* (graphic design text) */
   --Darkdesaturatedcyan: hsl(167, 40%, 24%);
