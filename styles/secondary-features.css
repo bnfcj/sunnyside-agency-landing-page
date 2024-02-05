@@ -1,0 +1,15 @@
+.secondary-feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(495px, 100%), 1fr));
+  position: relative;
+}
+.secondary-feature img {
+  width: 100%;
+}
+.secondary-container {
+  position: relative;
+}
+.secondary-container > *:nth-child(n + 2) {
+  position: absolute;
+  bottom: 0;
+}

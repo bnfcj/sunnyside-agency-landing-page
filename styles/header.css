@@ -10,9 +10,7 @@ header {
     background-image: url("../images/desktop/image-header.jpg");
   }
 }
-h2 {
-  max-width: 80vw;
-}
+
 .header-top {
   padding: var(--space-l) 0;
   width: calc(100% - 2 * var(--space-m-3xl));
