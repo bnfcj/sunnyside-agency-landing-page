@@ -15,7 +15,7 @@
 .secondary-container > *:nth-child(2) {
   padding: 0 var(--space-3xs);
   position: absolute;
-  bottom: var(--space-2xs-xl);
+  bottom: var(--space-s-2xl);
 }
 .secondary-container > *:nth-child(2) > * + * {
   margin-top: var(--space-3xs-s);
