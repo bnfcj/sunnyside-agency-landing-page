@@ -34,7 +34,7 @@
   background-color: var(--Softred);
 }
 .primary-feature div:nth-child(2) {
-  padding: var(--space-s);
+  padding: var(--space-s-2xl);
   display: flex;
   align-items: center;
   flex-direction: column;

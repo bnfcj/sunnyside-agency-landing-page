@@ -34,7 +34,7 @@ header {
 [data-type="desktop"] ul {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs);
+  gap: var(--space-xs-xl);
 }
 .logo {
   height: var(--step-0);
