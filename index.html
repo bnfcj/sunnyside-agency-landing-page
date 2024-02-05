@@ -31,7 +31,8 @@
     <link rel="stylesheet" href="styles/utility.css" />
     <!-- Header Css -->
     <link rel="stylesheet" href="styles/header.css" />
-
+    <!-- Primary-feature -->
+    <link rel="stylesheet" href="styles/primary-features.css" />
     <!-- Scripts -->
     <script src="scripts/script.js" defer></script>
     <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -48,8 +49,8 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Projects</a></li>
-            <li data-type="Button">
-              <a class="fraunces darkest-text" href="#">Contact</a>
+            <li>
+              <a class="fraunces" href="#">Contact</a>
             </li>
           </ul>
         </nav>
@@ -63,7 +64,10 @@
     </header>
     <main>
       <div>
-        <article id="">
+        <article class="primary-feature" id="">
+          <div>
+            <img src="./images/desktop/image-transform.jpg" alt="" />
+          </div>
           <div>
             <h3>Transform your brand</h3>
             <p>
@@ -73,12 +77,11 @@
             </p>
             <a class="fraunces" href="#">Learn more</a>
           </div>
-
-          <div>
-            <img src="./images/desktop/image-transform.jpg" alt="" />
-          </div>
         </article>
-        <article data-type="even-item" id="">
+        <article class="primary-feature" data-type="even-item" id="">
+          <div>
+            <img src="./images/desktop/image-stand-out.jpg" alt="" />
+          </div>
           <div>
             <h3>Stand out to the right audience</h3>
             <p>
@@ -87,10 +90,6 @@
               extend your brand in digital places.
             </p>
             <a class="fraunces" href="#">Learn more</a>
-          </div>
-
-          <div>
-            <img src="./images/desktop/image-stand-out.jpg" alt="" />
           </div>
         </article>
         <article id="">

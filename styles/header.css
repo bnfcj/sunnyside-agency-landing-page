@@ -44,8 +44,7 @@ h2 {
 [data-type="desktop"] li a {
   color: var(--White);
 }
-[data-type="desktop"] .darkest-text,
-[data-type="mobile"] .darkest-text {
+.header-top li:last-child a {
   color: var(--Verydarkdesaturatedblue);
 }
 [data-state="menu-closed"] nav {
@@ -84,9 +83,9 @@ nav a {
 [data-state="menu-opened"] ul {
   background-color: var(--White);
   display: grid;
-  gap: var(--space-2xs);
+  gap: var(--space-l);
   justify-items: center;
-  padding: var(--space-xs) 0;
+  padding: var(--space-l) 0;
 }
 [data-state="menu-opened"] .before-container {
   width: var(--space-m);
