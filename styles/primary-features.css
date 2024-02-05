@@ -33,6 +33,13 @@
 .primary-red:hover::before {
   background-color: var(--Softred);
 }
+.primary-feature picture,
+.primary-feature img {
+  height: 100%;
+}
+.primary-feature img {
+  object-fit: cover;
+}
 .primary-feature div:nth-child(2) {
   padding: var(--space-s-2xl);
   display: flex;
