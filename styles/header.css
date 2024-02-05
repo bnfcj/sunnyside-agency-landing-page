@@ -10,7 +10,9 @@ header {
     background-image: url("../images/desktop/image-header.jpg");
   }
 }
-
+h2 {
+  max-width: 80vw;
+}
 .header-top {
   padding: var(--space-l) 0;
   width: calc(100% - 2 * var(--space-m-3xl));
@@ -19,6 +21,7 @@ header {
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
+  z-index: 1;
 }
 [data-type="desktop"] .header-top {
   display: flex;
@@ -96,6 +99,9 @@ nav a {
 [data-type="mobile"] .hamburger {
   display: block;
   margin-left: auto;
+  cursor: pointer;
+  height: 50px;
+  display: block;
 }
 [data-type="mobile"] ul a {
   color: var(--Darkgrayishblue);
