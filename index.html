@@ -35,17 +35,24 @@
     <title>Frontend Mentor | Sunnyside agency landing page</title>
   </head>
   <body class="barlow">
-    <header>
+    <header data-type="mobile" data-state="menu-opened">
       <div class="header-top">
-        <img src="./images/logo.svg" alt="Sunnyside Logo" />
-        <img src="./images/icon-hamburger.svg" aria-hidden="true" alt="" />
-        <nav class="visually-hidden" aria-label="primary">
+        <img class="logo" src="./images/logo.svg" alt="Sunnyside Logo" />
+        <img
+          class="hamburger"
+          src="./images/icon-hamburger.svg"
+          aria-hidden="true"
+          alt=""
+        />
+
+        <nav aria-label="primary">
+          <div class="before-container"></div>
           <ul role="list">
-            <li><a class="white-text" href="#">About</a></li>
-            <li><a class="white-text" href="#">Services</a></li>
-            <li><a class="white-text" href="#">Projects</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
             <li data-type="Button">
-              <a class="darkest-text fraunces" href="#">Contact</a>
+              <a class="fraunces darkest-text" href="#">Contact</a>
             </li>
           </ul>
         </nav>
