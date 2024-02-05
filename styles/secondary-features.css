@@ -3,13 +3,20 @@
   grid-template-columns: repeat(auto-fit, minmax(min(495px, 100%), 1fr));
   position: relative;
 }
+.secondary-feature picture,
 .secondary-feature img {
   width: 100%;
 }
 .secondary-container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .secondary-container > *:nth-child(2) {
+  padding: 0 var(--space-3xs);
   position: absolute;
-  bottom: 0;
+  bottom: var(--space-2xs-3xl);
+}
+.secondary-container > *:nth-child(2) > * + * {
+  margin-top: var(--space-3xs);
 }
