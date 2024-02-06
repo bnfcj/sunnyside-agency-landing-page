@@ -26,15 +26,15 @@ header {
   gap: var(--space-xs);
   justify-content: space-between;
 }
-.header-center {
-  margin-bottom: var(--space-xl-3xl);
+.absolute-center {
+  justify-content: flex-end;
 }
 @media screen and (max-height: 550px) {
   .arrow {
     display: none;
   }
   .header-center {
-    margin-bottom: var(--space-s);
+    margin-bottom: 0;
   }
 }
 [data-type="desktop"] ul {
