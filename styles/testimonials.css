@@ -6,7 +6,7 @@
   );
   align-items: start;
   position: relative;
-  padding-block: var(--space-xs);
+  padding-block: var(--space-m);
   gap: var(--space-xs);
   padding-inline: var(--space-s-xl);
 }
