@@ -37,6 +37,10 @@
     <link rel="stylesheet" href="styles/secondary-features.css" />
     <!-- Testimonials -->
     <link rel="stylesheet" href="styles/testimonials.css" />
+    <!-- Gallery -->
+    <link rel="stylesheet" href="styles/gallery.css" />
+    <!-- Footer -->
+    <link rel="stylesheet" href="styles/footer.css" />
     <!-- Scripts -->
     <script src="scripts/script.js" defer></script>
     <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -201,23 +205,63 @@
             </figure>
           </div>
         </article>
-        <article>
-          <img
-            src="./images/desktop/image-gallery-milkbottles.jpg"
-            alt="Milk bottles"
-          />
-          <img
-            src="./images/desktop/image-gallery-orange.jpg"
-            alt="Orange sliced"
-          />
-          <img
-            src="./images/desktop/image-gallery-cone.jpg"
-            alt="Ice cream cone"
-          />
-          <img
-            src="./images/desktop/image-gallery-sugarcubes.jpg"
-            alt="Sugar cubes"
-          />
+        <article class="gallery">
+          <picture>
+            <source
+              srcset="/images/mobile/image-gallery-milkbottles.jpg"
+              media="(max-width:188.98px)"
+            />
+            <source
+              srcset="/images/desktop/image-gallery-milkbottles.jpg"
+              media="(min-width:189px)"
+            />
+            <img
+              src="./images/mobile/image-gallery-milkbottles.jpg"
+              alt="Milk bottles"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/mobile/image-gallery-orange.jpg"
+              media="(max-width:188.98px)"
+            />
+            <source
+              srcset="./images/desktop/image-gallery-orange.jpg"
+              media="(min-width:189px)"
+            />
+            <img
+              src="./images/mobile/image-gallery-orange.jpg"
+              alt="Orange sliced"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/mobile/image-gallery-cone.jpg"
+              media="(max-width:188.98px)"
+            />
+            <source
+              srcset="./images/desktop/image-gallery-cone.jpg"
+              media="(min-width:189px)"
+            />
+            <img
+              src="./images/mobile/image-gallery-cone.jpg"
+              alt="Ice cream cone"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="./images/mobile/image-gallery-sugarcubes.jpg"
+              media="(max-width:188.98px)"
+            />
+            <source
+              srcset="./images/desktop/image-gallery-sugarcubes.jpg"
+              media="(min-width:189px)"
+            />
+            <img
+              src="./images/mobile/image-gallery-sugarcubes.jpg"
+              alt="Sugar cubes"
+            />
+          </picture>
         </article>
       </div>
     </main>

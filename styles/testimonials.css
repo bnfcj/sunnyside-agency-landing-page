@@ -4,6 +4,7 @@
     auto-fit,
     minmax(min(calc(760px / 2), 100%), 1fr)
   );
+  align-items: start;
   position: relative;
   padding-block: var(--space-xs);
   gap: var(--space-xs);
