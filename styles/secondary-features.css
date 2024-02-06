@@ -14,6 +14,12 @@
   display: flex;
   justify-content: center;
 }
+.secondary-container:first-child {
+  color: var(--Darkdesaturatedcyan);
+}
+.secondary-container:nth-child(2) {
+  color: var(--Darkblue);
+}
 .secondary-container > *:nth-child(2) {
   padding-inline: var(--space-s-l);
   padding-bottom: var(--space-l);

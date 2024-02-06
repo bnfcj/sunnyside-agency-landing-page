@@ -36,12 +36,12 @@ a.darkest-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: var(--space-s);
+  gap: var(--space-m);
   align-items: center;
 }
 .text-center {
   text-align: center;
 }
-.padding-inline-s {
-  padding-inline: var(--space-s);
+.padding-inline-s-xl {
+  padding-inline: var(--space-s-xl);
 }

@@ -34,7 +34,7 @@ header {
 [data-type="desktop"] ul {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-xs-xl);
+  gap: var(--space-s-l);
 }
 .logo {
   height: var(--step-1);
@@ -65,9 +65,7 @@ header {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-[data-state="menu-opened"] .nav-wrapper {
-  width: 100%;
-}
+
 [data-state="menu-opened"] nav {
   margin-top: var(--space-xl);
   width: 100%;

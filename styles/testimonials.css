@@ -1,0 +1,40 @@
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(calc(760px / 2), 100%), 1fr)
+  );
+  position: relative;
+  padding-block: var(--space-xs);
+  gap: var(--space-xs);
+  padding-inline: var(--space-s-xl);
+}
+.testimonials-header {
+  color: var(--Grayishblue);
+  margin-top: var(--space-xs);
+  text-align: center;
+  margin-inline: auto;
+}
+.testimonials blockquote {
+  color: var(--Verydarkgrayishblue);
+}
+.testimonials .xs-text {
+  color: var(--Grayishblue);
+}
+.testimonials img {
+  border-radius: 50%;
+}
+.testimonial {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3xs);
+}
+.testimonial figcaption {
+  gap: var(--space-3xs);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
