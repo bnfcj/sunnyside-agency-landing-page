@@ -30,7 +30,7 @@ header {
 .header-center {
   margin-bottom: var(--space-xl-3xl);
 }
-@media screen and (max-height: 400px) {
+@media screen and (max-height: 550px) {
   .arrow {
     display: none;
   }
