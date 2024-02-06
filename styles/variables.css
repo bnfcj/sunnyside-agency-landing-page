@@ -51,7 +51,7 @@
   /* Step 6: 59.7197px → 91.5527px */
   --step-6: clamp(3.7325rem, 3.009rem + 3.6174vi, 5.722rem);
 }
-/* @link https://utopia.fyi/space/calculator?c=320,20,1.2,1200,24,1.25,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6|8,s-xl|s-m&g=s,l,l,12 */
+/* @link https://utopia.fyi/space/calculator?c=320,20,1.2,1200,24,1.25,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6|8,s-l&g=s,l,l,12 */
 
 :root {
   /* Space 3xs: 5px → 6px */
@@ -96,8 +96,8 @@
   --space-3xl-4xl: clamp(7.5rem, 5.8636rem + 8.1818vi, 12rem);
 
   /* Custom pairs */
-  /* Space s-xl: 20px → 72px */
-  --space-s-xl: clamp(1.25rem, 0.0682rem + 5.9091vi, 4.5rem);
+  /* Space s-l: 20px → 48px */
+  --space-s-l: clamp(1.25rem, 0.6136rem + 3.1818vi, 3rem);
 }
 
 /* @link https://utopia.fyi/grid/calculator?c=320,20,1.2,1200,24,1.25,6,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,&g=s,l,l,12 */

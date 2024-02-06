@@ -15,7 +15,7 @@
   justify-content: center;
 }
 .secondary-container > *:nth-child(2) {
-  padding-inline: var(--space-s-xl);
+  padding-inline: var(--space-s-l);
   padding-bottom: var(--space-l);
   position: absolute;
   display: flex;
