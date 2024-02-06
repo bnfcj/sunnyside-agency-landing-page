@@ -9,6 +9,9 @@ header {
   header {
     background-image: url("../images/desktop/image-header.jpg");
   }
+  .header-center {
+    margin-bottom: var(--space-m);
+  }
 }
 
 .header-top {
