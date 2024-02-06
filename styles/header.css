@@ -25,7 +25,6 @@ header {
   display: flex;
   gap: var(--space-xs);
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 .header-center {
   margin-bottom: var(--space-xl-3xl);
