@@ -6,10 +6,10 @@ class Header {
     const header = document.querySelector("header");
     const dataType = header.getAttribute("data-type");
     // const dataState = header.getAttribute('data-State')
-    if (screenWidth >= 376 && dataType === "mobile") {
+    if (screenWidth >= 751 && dataType === "mobile") {
       header.setAttribute("data-type", "desktop");
       header.removeAttribute("data-state");
-    } else if (screenWidth < 376 && dataType === "desktop") {
+    } else if (screenWidth < 751 && dataType === "desktop") {
       header.setAttribute("data-type", "mobile");
       header.setAttribute("data-state", "menu-closed");
     }
