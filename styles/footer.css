@@ -8,6 +8,7 @@ footer {
 }
 footer a {
   color: var(--Darkmoderatecyan);
+  cursor: pointer;
 }
 .bottom-logo {
   filter: invert(51%) sepia(68%) saturate(305%) hue-rotate(118deg)
@@ -20,4 +21,12 @@ footer a {
   flex-wrap: wrap;
   gap: var(--space-s);
   justify-content: center;
+}
+
+.footer-sites a:hover {
+  color: var(--White);
+}
+.footer-socials a:hover {
+  filter: invert(100%) sepia(100%) saturate(27%) hue-rotate(316deg)
+    brightness(106%) contrast(100%);
 }
