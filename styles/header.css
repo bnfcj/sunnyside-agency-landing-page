@@ -37,7 +37,7 @@ header {
   gap: var(--space-xs-xl);
 }
 .logo {
-  height: var(--step-0);
+  height: var(--step-1);
 }
 [data-type="desktop"] li a {
   color: var(--White);
@@ -76,7 +76,7 @@ header {
   grid-column: span 2;
 }
 nav a {
-  font-size: var(--step-0);
+  font-size: var(--step-1);
 }
 [data-state="menu-opened"] ul {
   background-color: var(--White);

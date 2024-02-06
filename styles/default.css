@@ -1,28 +1,18 @@
 html {
-  font-size: 100%;
   scroll-behavior: smooth;
-}
-@media screen and (min-width: 768px) {
-  html {
-    font-size: 112.5%;
-  }
 }
 
 /* Line Heights */
 body {
   line-height: 1.4;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
-h2 {
-  padding: var(--space-s);
-}
+
 h1,
-h2,
-h3,
-h4 {
+h2 {
   max-width: 20ch;
   line-height: 1;
-  letter-spacing: 2px;
+  letter-spacing: 0.5px;
 }
 ul {
   list-style: none;
@@ -36,11 +26,8 @@ li,
 blockquote {
   max-width: 50ch;
 }
-h1 h2,
-h3,
-h4,
-h5,
-h6 {
+h1,
+h2 {
   font-family: var(--ff-special);
   font-optical-sizing: auto;
   font-style: normal;
@@ -54,24 +41,13 @@ h1 {
   font-size: var(--step-6);
 }
 h2 {
-  font-weight: var(--fw-900);
-  font-size: var(--step-5);
-}
-h3 {
-  font-weight: var(--fw-700);
-  font-size: var(--step-4);
-}
-h4 {
   font-weight: var(--fw-700);
   font-size: var(--step-3);
 }
-h5 {
-  font-weight: var(--fw-700);
-  font-size: var(--step-2);
-}
-h6 {
-  font-weight: var(--fw-700);
-  font-size: var(--step-1);
+
+.text-small {
+  font-weight: var(--fw-600);
+  font-size: var(--step--1);
 }
 p,
 blockquote {

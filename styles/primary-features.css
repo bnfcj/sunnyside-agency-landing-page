@@ -41,7 +41,7 @@
   object-fit: cover;
 }
 .primary-feature div:nth-child(2) {
-  padding: var(--space-s-2xl);
+  padding: var(--space-s-xl);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
