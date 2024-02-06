@@ -1,3 +1,23 @@
 footer {
-  background-color: var(--Darkmoderatecyan);
+  background-color: var(--Darkmoderatecyan-lighter);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: var(--space-s-xl);
+  align-items: center;
+}
+footer a {
+  color: var(--Darkmoderatecyan);
+}
+.bottom-logo {
+  filter: invert(51%) sepia(68%) saturate(305%) hue-rotate(118deg)
+    brightness(83%) contrast(80%);
+}
+.footer-sites,
+.footer-socials {
+  margin-top: var(--space-s);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-s);
+  justify-content: center;
 }
