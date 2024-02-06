@@ -30,7 +30,11 @@ header {
 .header-center {
   margin-bottom: var(--space-xl-3xl);
 }
-
+@media screen and (max-height: 400px) {
+  .arrow {
+    display: none;
+  }
+}
 [data-type="desktop"] ul {
   display: flex;
   flex-wrap: wrap;
